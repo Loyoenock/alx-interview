@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+'''
+A function that seturns list representing Pascal's triangle of n
+'''
+
 def pascal_triangle(n):
     p = [[] for i in range(n)]
     for i in range(n):
@@ -10,6 +15,4 @@ def pascal_triangle(n):
             elif j == i:
                 p[i].append(1)
     return p
-
 n = 5
-print(pascal_triangle(n))
