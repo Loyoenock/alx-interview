@@ -1,18 +1,18 @@
 #!/usr/bin/python3
-'''
-A function that seturns list representing Pascal's triangle of n
-'''
+"""
+A function that returns a list representing Pascal's triangle of n.
+"""
 
 def pascal_triangle(n):
     """
     Generate Pascal's triangle up to the nth row.
 
     Args:
-    n (int): The number of rows in Pascal's triangle.
+        n (int): The number of rows in Pascal's triangle.
 
     Returns:
-    list of lists: A list of lists representing Pascal's triangle.
-                   Returns an empty list if n <= 0.
+        list of lists: A list of lists representing Pascal's triangle.
+                       Returns an empty list if n <= 0.
     """
     if n <= 0:
         return []
