@@ -3,6 +3,7 @@
 A function that returns a list representing Pascal's triangle of n.
 """
 
+
 def pascal_triangle(n):
     """
     Generate Pascal's triangle up to the nth row.
