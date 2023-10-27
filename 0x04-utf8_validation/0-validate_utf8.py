@@ -4,6 +4,7 @@ This script defines a function 'validUTF8' which checks
 if a given data set is a validUTF-8 encoding.
 """
 
+
 def validUTF8(data):
     """
     Determines whether the provided data represents
