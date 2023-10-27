@@ -1,12 +1,13 @@
 #!/usr/bin/python3
+
 """
-This script defines a function 'validUTF8' which checks 
+This script defines a function 'validUTF8' which checks
 if a given data set is a valid UTF-8 encoding.
 """
 
 def validUTF8(data):
     """
-    Determines whether the provided data represents 
+    Determines whether the provided data represents
     a valid UTF-8 encoding.
     """
     # Initialize a variable to track the number of expected bytes.
@@ -45,6 +46,4 @@ def validUTF8(data):
 
     # If the number of bytes is zero at the end, it's valid UTF-8.
     if number_bytes == 0:
-        return True
 
-    return False
