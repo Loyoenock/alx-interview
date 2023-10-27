@@ -6,7 +6,8 @@ if a given data set is a valid UTF-8 encoding.
 
 def validUTF8(data):
     """
-    Determines whether the provided data represents a valid UTF-8 encoding.
+    Determines whether the provided data represents 
+    a valid UTF-8 encoding.
     """
     # Initialize a variable to track the number of expected bytes.
     number_bytes = 0
@@ -47,4 +48,3 @@ def validUTF8(data):
         return True
 
     return False
-
