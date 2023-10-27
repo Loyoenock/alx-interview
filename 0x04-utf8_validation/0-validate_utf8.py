@@ -46,4 +46,3 @@ def validUTF8(data):
 
     # If the number of bytes is zero at the end, it's valid UTF-8.
     if number_bytes == 0:
-
